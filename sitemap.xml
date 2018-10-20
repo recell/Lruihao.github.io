@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lruihao.cn/donators.html</loc>
+    
+    <lastmod>2018-10-20T16:43:06.925Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lruihao.cn/links.html</loc>
+    
+    <lastmod>2018-10-20T16:23:32.944Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lruihao.cn/font-mmt.html</loc>
+    
+    <lastmod>2018-10-18T20:12:59.658Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lruihao.cn/friends.html</loc>
+    
+    <lastmod>2018-10-18T20:12:14.851Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lruihao.cn/love/index.html</loc>
     
-    <lastmod>2018-10-18T04:59:15.955Z</lastmod>
+    <lastmod>2018-10-18T05:25:23.362Z</lastmod>
     
   </url>
   
@@ -16,30 +44,9 @@
   </url>
   
   <url>
-    <loc>https://lruihao.cn/font-mmt.html</loc>
-    
-    <lastmod>2018-10-17T12:07:10.590Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lruihao.cn/donators.html</loc>
-    
-    <lastmod>2018-10-17T12:05:44.794Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://lruihao.cn/hexo%20+%20github%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html</loc>
     
     <lastmod>2018-10-17T12:05:11.575Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lruihao.cn/links.html</loc>
-    
-    <lastmod>2018-10-17T04:32:27.915Z</lastmod>
     
   </url>
   
@@ -103,13 +110,6 @@
     <loc>https://lruihao.cn/Markdown%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B.html</loc>
     
     <lastmod>2018-09-28T13:49:28.369Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lruihao.cn/friends.html</loc>
-    
-    <lastmod>2018-09-28T10:32:53.589Z</lastmod>
     
   </url>
   
