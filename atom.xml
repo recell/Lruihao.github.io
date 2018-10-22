@@ -43,7 +43,7 @@
     <link href="https://lruihao.cn/linux-hello-c.html"/>
     <id>https://lruihao.cn/linux-hello-c.html</id>
     <published>2018-10-15T13:19:27.000Z</published>
-    <updated>2018-10-15T13:49:57.508Z</updated>
+    <updated>2018-10-22T10:44:31.010Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>在Linux上编译c语言文件。</p></blockquote><h3 id="打开vim编辑器"><a href="#打开vim编辑器" class="headerlink" title="打开vim编辑器"></a>打开vim编辑器</h3><p>(没有就用vi,或者先安装vim<code>sudo apt-get install vim</code>)<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim</span><br></pre></td></tr></table></figure><p></p><h3 id="编辑文件"><a href="#编辑文件" class="headerlink" title="编辑文件"></a>编辑文件</h3><p>打开文件编辑器之后编辑文件<br><img src="/linux-hello-c/ubuntu.png" alt=""></p><p>首先按<code>Esc</code>再<code>:</code>进入末行命令<br>再保存为hello.c文件后退出<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">: w hello.c</span><br><span class="line">: q</span><br></pre></td></tr></table></figure><p></p><p>打开目录看看生成的文件<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ls</span><br></pre></td></tr></table></figure><p></p><h3 id="编译生成可执行文件并执行"><a href="#编译生成可执行文件并执行" class="headerlink" title="编译生成可执行文件并执行"></a>编译生成可执行文件并执行</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ gcc hello.c -o hello</span><br><span class="line">$ ./hello</span><br></pre></td></tr></table></figure><p><img src="/linux-hello-c/hello.png" alt=""></p><p>若权限不够则加可执行权限<code>chmod +x hello</code></p>]]></content>
     
@@ -59,9 +59,9 @@
       <category term="Linux" scheme="https://lruihao.cn/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="https://lruihao.cn/tags/Linux/"/>
-    
       <category term="HelloWorld" scheme="https://lruihao.cn/tags/HelloWorld/"/>
+    
+      <category term="Linux" scheme="https://lruihao.cn/tags/Linux/"/>
     
   </entry>
   
