@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>https://lruihao.cn/friends.html</loc>
+    <lastmod>2018-10-25T16:08:02.299Z</lastmod>
+    <data>
+        <display>
+        <title>友情链接</title>
+        <pubTime>2018-09-28T10:29:20.000Z</pubTime>
+        
+        <tag>通用</tag>
+         
+        <tag>友情链接</tag>
+         
+         
+           
+             
+              <breadCrumb title="通用" url="https://lruihao.cn/categories/%E9%80%9A%E7%94%A8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lruihao.cn/termux1.html</loc>
     <lastmod>2018-10-25T06:43:27.270Z</lastmod>
     <data>
@@ -680,28 +702,6 @@
         <tag>hexo博客</tag>
          
         <tag>Markdown</tag>
-         
-         
-           
-             
-              <breadCrumb title="通用" url="https://lruihao.cn/categories/%E9%80%9A%E7%94%A8/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lruihao.cn/friends.html</loc>
-    <lastmod>2018-10-24T13:56:43.425Z</lastmod>
-    <data>
-        <display>
-        <title>友情链接</title>
-        <pubTime>2018-09-28T10:29:20.000Z</pubTime>
-        
-        <tag>通用</tag>
-         
-        <tag>友情链接</tag>
          
          
            
