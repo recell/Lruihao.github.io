@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://lruihao.cn/"/>
-  <updated>2018-10-25T06:43:27.270Z</updated>
+  <updated>2018-10-26T14:50:59.927Z</updated>
   <id>https://lruihao.cn/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>windows上搭建web服务器</title>
+    <link href="https://lruihao.cn/web-server-win.html"/>
+    <id>https://lruihao.cn/web-server-win.html</id>
+    <published>2018-10-26T13:56:18.000Z</published>
+    <updated>2018-10-26T14:50:59.927Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>我用的饿win10</p></blockquote><h3 id="打开控制面板"><a href="#打开控制面板" class="headerlink" title="打开控制面板"></a>打开控制面板</h3><p>选择并进入“程序”，双击“启用或关闭Windows服务”，在弹出的窗口中选择“Internet Information Services”下面所有地选项，点击确定后，开始更新服务。<br><img src="/web-server-win/1.png" alt=""></p><h3 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h3><p>更新完成后，打开浏览器，输入<code>http://localhost</code>或者<code>127.0.0.1</code>回车，如果此时出现IIS7欢迎界面，说明Web服务器已经搭建成功。<br><img src="/web-server-win/2.png" alt=""></p><h3 id="网站设置"><a href="#网站设置" class="headerlink" title="网站设置"></a>网站设置</h3><p>当web服务器搭建成功后，我们下一步所要做的就是把我们开发的网站安装到Web服务器的目录中。一般情况下，当Web服务器安装完成后，会创建路径<code>%系统根目录%inetpub/wwwroot</code>，将我们开发的网站COPY到该路径下。即可实现本地访问该网站。<br><img src="/web-server-win/3.png" alt=""><br>也可以更改根目录，搜索IIS，点击网站，Default Web Site，基本设置修改物理路径（<strong>默认站点名称不要改</strong>）<br><img src="/web-server-win/5.png" alt=""><br><img src="/web-server-win/6.png" alt=""></p><h3 id="设置防火墙"><a href="#设置防火墙" class="headerlink" title="设置防火墙"></a>设置防火墙</h3><p>让局域网当其它计算机也能访问本地网站资源。具体方法：打开控制面板，选择“系统和安全”，点击“允许程序通过Windows防火墙”，在弹出的对话框中勾选“万维网服务HTTP”右侧的两个复选框，最后点击确定退出。<br><img src="/web-server-win/3.png" alt=""></p><p>在局域网中其它计算机上，打开浏览器就可以通过你电脑的ip地址访问了（手机也可以）<br>本地ip可以通过cmd用ipconfig查看</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;&lt;p&gt;我用的饿win10&lt;/p&gt;&lt;/blockquote&gt;&lt;h3 id=&quot;打开控制面板&quot;&gt;&lt;a href=&quot;#打开控制面板&quot; class=&quot;headerlink&quot; title=&quot;打开控制面板&quot;&gt;&lt;/a&gt;打开控制面板&lt;/h3&gt;&lt;p&gt;选择并进入“程序”，双击“
+      
+    
+    </summary>
+    
+      <category term="server" scheme="https://lruihao.cn/categories/server/"/>
+    
+    
+      <category term="web server" scheme="https://lruihao.cn/tags/web-server/"/>
+    
+      <category term="windows" scheme="https://lruihao.cn/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Git上传代码到github,coding等仓库</title>
+    <link href="https://lruihao.cn/gituse.html"/>
+    <id>https://lruihao.cn/gituse.html</id>
+    <published>2018-10-26T13:11:02.000Z</published>
+    <updated>2018-10-26T13:40:11.548Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="生成ssh"><a href="#生成ssh" class="headerlink" title="生成ssh"></a>生成ssh</h3><p>这个不多说了，很常见了，前面的文章也有分多次用到<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;admin@lruihao.cn&quot;</span><br></pre></td></tr></table></figure><p></p><h3 id="配置ssh"><a href="#配置ssh" class="headerlink" title="配置ssh"></a>配置ssh</h3><p>复制id_rsa.pub文件内容去github或者coding配置SSH公钥（根据自己情况）</p><h3 id="创建本地代码库"><a href="#创建本地代码库" class="headerlink" title="创建本地代码库"></a>创建本地代码库</h3><p>在本地创建一个文件夹，作为你上传代码的本地仓库，在这个文件夹内点击右键，选择Git Bash Here，首先要初始化本地仓库，输<code>git init</code>命令<br>接下来进行远程代码库克隆（事先在coding等中建立一个项目，就是你需要链接的仓库）<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/Lruihao/Lruihao.github.io.git</span><br></pre></td></tr></table></figure><p></p><p>克隆时会出现输入账号密码的环节正确输入即可。</p><h3 id="代码推送（重点）"><a href="#代码推送（重点）" class="headerlink" title="代码推送（重点）"></a>代码推送（重点）</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br><span class="line">git add *</span><br><span class="line">git commit -m &quot;代码备注随便写&quot;</span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure><p>git status可以理解为当前本地仓库的文件情况，如果输入命令后，文件名为红色说明还没有推送云端，至少还没有进入缓存区。<br>然后使用<code>git add</code>推送你要上传的文件，也可以用通配符表示全部推送。接下来， 输入<code>git commit -m &quot;代码备注</code>命令提交。<br>然后输入<code>git push origin master</code>命令推送到云端，origin是服务器，master是分枝。一般平时都是推送到master所以不可以简化为<code>git push</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;生成ssh&quot;&gt;&lt;a href=&quot;#生成ssh&quot; class=&quot;headerlink&quot; title=&quot;生成ssh&quot;&gt;&lt;/a&gt;生成ssh&lt;/h3&gt;&lt;p&gt;这个不多说了，很常见了，前面的文章也有分多次用到&lt;br&gt;&lt;/p&gt;&lt;figure class=&quot;highlight p
+      
+    
+    </summary>
+    
+      <category term="git" scheme="https://lruihao.cn/categories/git/"/>
+    
+    
+      <category term="git" scheme="https://lruihao.cn/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>termux基本使用教程</title>
@@ -68,7 +120,7 @@
     <link href="https://lruihao.cn/linux-hello-c.html"/>
     <id>https://lruihao.cn/linux-hello-c.html</id>
     <published>2018-10-15T13:19:27.000Z</published>
-    <updated>2018-10-22T10:44:31.010Z</updated>
+    <updated>2018-10-26T13:16:32.742Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>在Linux上编译c语言文件。</p></blockquote><h3 id="打开vim编辑器"><a href="#打开vim编辑器" class="headerlink" title="打开vim编辑器"></a>打开vim编辑器</h3><p>(没有就用vi,或者先安装vim<code>sudo apt-get install vim</code>)<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ vim</span><br></pre></td></tr></table></figure><p></p><h3 id="编辑文件"><a href="#编辑文件" class="headerlink" title="编辑文件"></a>编辑文件</h3><p>打开文件编辑器之后编辑文件<br><img src="/linux-hello-c/ubuntu.png" alt=""></p><p>首先按<code>Esc</code>再<code>:</code>进入末行命令<br>再保存为hello.c文件后退出<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">: w hello.c</span><br><span class="line">: q</span><br></pre></td></tr></table></figure><p></p><p>打开目录看看生成的文件<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ls</span><br></pre></td></tr></table></figure><p></p><h3 id="编译生成可执行文件并执行"><a href="#编译生成可执行文件并执行" class="headerlink" title="编译生成可执行文件并执行"></a>编译生成可执行文件并执行</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ gcc hello.c -o hello</span><br><span class="line">$ ./hello</span><br></pre></td></tr></table></figure><p><img src="/linux-hello-c/hello.png" alt=""></p><p>若权限不够则加可执行权限<code>chmod +x hello</code></p>]]></content>
     
@@ -81,12 +133,12 @@
     
     </summary>
     
-      <category term="Linux" scheme="https://lruihao.cn/categories/Linux/"/>
+      <category term="linux" scheme="https://lruihao.cn/categories/linux/"/>
     
+    
+      <category term="linux" scheme="https://lruihao.cn/tags/linux/"/>
     
       <category term="HelloWorld" scheme="https://lruihao.cn/tags/HelloWorld/"/>
-    
-      <category term="Linux" scheme="https://lruihao.cn/tags/Linux/"/>
     
   </entry>
   
@@ -457,52 +509,6 @@
       <category term="hexo博客" scheme="https://lruihao.cn/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
     
       <category term="前端" scheme="https://lruihao.cn/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo个性化-next主题动态显示subtitle</title>
-    <link href="https://lruihao.cn/dongtaisub.html"/>
-    <id>https://lruihao.cn/dongtaisub.html</id>
-    <published>2018-08-20T08:16:40.000Z</published>
-    <updated>2018-09-01T03:01:26.074Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note"><p>本文适合我这种纯小白。<br>目前为止，全网也就只有一个博主写到过这样动态显示subtitle的文章。<a href="https://www.jianshu.com/p/df2c844eeabf" rel="external nofollow noopener noreferrer" target="_blank">传送门</a>（关键词：js,后加载）<br>但是嘞，该博写的不怎么详细，17年底写的。当然更大的可能是next更新了一些文件结构，所以不适合现在使用了。以前我按原博的流程配置了一下没成功就搁在那里了，今天突然心血来潮。翻了翻原博主博客的源码，再与自己的对比了一下，发现了一些端倪。稍作调整后如下：</p></div><a id="more"></a><h2 id="修改站点配置文件，主要修改subtitle"><a href="#修改站点配置文件，主要修改subtitle" class="headerlink" title="修改站点配置文件，主要修改subtitle"></a>修改站点配置文件，主要修改subtitle</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">subtitle: 不怕万人阻挡，只怕自己投降。W你如何回忆，决定你是一个怎样的人！W这是一个句子。W这是另一个句子。W这些句子你们不要搞一样的不然怎么叫个性签名-_-！。</span><br></pre></td></tr></table></figure><p>句子与句子之间以W分割，后续需要根据该标志位去拆分句子组。<br><strong>小伙伴们博主这里只是提供一个思路，不要和我用一模一样的啊，不然撞了多尴尬呀</strong></p><h2 id="修改themes-next-layout-partials-header下面的index-swig文件。"><a href="#修改themes-next-layout-partials-header下面的index-swig文件。" class="headerlink" title="修改themes\next\layout_partials\header下面的index.swig文件。"></a>修改themes\next\layout_partials\header下面的index.swig文件。</h2><p>在最开头添加如下代码：<br>(这里用的原博的js)</p><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line"> <span class="function">function <span class="title">GetRandomNum</span><span class="params">(Min,Max)</span></span></span><br><span class="line"><span class="function">  </span>&#123;</span><br><span class="line">    var Range = Max - Min;</span><br><span class="line">    var Rand = Math.random();</span><br><span class="line">    <span class="keyword">return</span>(Min + Math.round(Rand * Range));</span><br><span class="line">  &#125;</span><br><span class="line"><span class="function">function <span class="title">setSidebarMarginTop</span> <span class="params">(headerOffset)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> $(<span class="string">'#sidebar'</span>).css(&#123; <span class="string">'margin-top'</span>: headerOffset &#125;);</span><br><span class="line">  &#125;</span><br><span class="line"> <span class="function">function <span class="title">getHeaderOffset</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> $(<span class="string">'.header-inner'</span>).height() + CONFIG.sidebar.offset;</span><br><span class="line">  &#125;</span><br><span class="line">  window.onload=function()&#123;</span><br><span class="line">    var subtitle = <span class="string">"&#123;&#123;config.subtitle&#125;&#125;"</span>;</span><br><span class="line">     var mytitle = subtitle.split(<span class="string">"W"</span>);</span><br><span class="line">     var max = mytitle.length-<span class="number">1</span>;</span><br><span class="line">     var index = GetRandomNum(<span class="number">0</span>,max);</span><br><span class="line">     var text = mytitle[index];</span><br><span class="line">     $(<span class="string">"#helloTitle"</span>).html(text);</span><br><span class="line">     var headOffset = getHeaderOffset();</span><br><span class="line">     setSidebarMarginTop(headOffset);</span><br><span class="line">     <span class="comment">//动态subtitle设置</span></span><br><span class="line">  &#125;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><h2 id="然后修改brand-swig的部分代码"><a href="#然后修改brand-swig的部分代码" class="headerlink" title="然后修改brand.swig的部分代码"></a>然后修改brand.swig的部分代码</h2><p>找到<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if subtitle %&#125;</span><br><span class="line">  &#123;% if theme.seo %&#125;</span><br><span class="line">    ...</span><br><span class="line">  &#123;% else %&#125;</span><br><span class="line">    ...</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure><p></p><p>把这一段，把原来的修改成以下代码即可<br>ps: <code>title</code>和<code>subtitle</code>的<code>字体</code>还有<code>颜色</code>也可以在这个文件修改，即使用<code>style</code>标签，按个人爱好修改也可不要。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;% <span class="keyword">if</span> subtitle %&#125;</span><br><span class="line">  &#123;% <span class="keyword">if</span> theme.seo %&#125;</span><br><span class="line">    &lt;p class="site-subtitle" id="helloTitle" itemprop="description"&gt;&lt;/p&gt;</span><br><span class="line">  &#123;% <span class="keyword">else</span> %&#125;</span><br><span class="line">    &lt;p id="helloTitle" class="site-subtitle"&gt;&lt;/p&gt;</span><br><span class="line">  &#123;% endif %&#125;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure><p>之后部署后每次刷新就可以看到不同的subtitle了，开心😀</p><p>效果详见：<a href="https://lruihao.cn">https://lruihao.cn</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;div class=&quot;note&quot;&gt;&lt;p&gt;本文适合我这种纯小白。&lt;br&gt;目前为止，全网也就只有一个博主写到过这样动态显示subtitle的文章。&lt;a href=&quot;https://www.jianshu.com/p/df2c844eeabf&quot; rel=&quot;external nofollow noopener noreferrer&quot; target=&quot;_blank&quot;&gt;传送门&lt;/a&gt;（关键词：js,后加载）&lt;br&gt;但是嘞，该博写的不怎么详细，17年底写的。当然更大的可能是next更新了一些文件结构，所以不适合现在使用了。以前我按原博的流程配置了一下没成功就搁在那里了，今天突然心血来潮。翻了翻原博主博客的源码，再与自己的对比了一下，发现了一些端倪。稍作调整后如下：&lt;/p&gt;&lt;/div&gt;
-    
-    </summary>
-    
-      <category term="hexo博客" scheme="https://lruihao.cn/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-      <category term="hexo博客" scheme="https://lruihao.cn/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-      <category term="前端" scheme="https://lruihao.cn/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高逼格c语言画心</title>
-    <link href="https://lruihao.cn/heart.html"/>
-    <id>https://lruihao.cn/heart.html</id>
-    <published>2018-08-15T08:33:12.000Z</published>
-    <updated>2018-08-29T11:18:51.581Z</updated>
-    
-    <content type="html"><![CDATA[<p>七夕又快到了，分享一个曾经玩过的代码，用C语言画一个跳动的心，很有逼格有木有。</p><p><img src="https://i.loli.net/2018/08/29/5b8680e407e09.gif" alt="大一的图"><br><a id="more"></a><br></p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;math.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;tchar.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">f</span><span class="params">(<span class="keyword">float</span> x, <span class="keyword">float</span> y, <span class="keyword">float</span> z)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">float</span> a = x * x + <span class="number">9.0f</span> / <span class="number">4.0f</span> * y * y + z * z - <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">return</span> a * a * a - x * x * z * z * z - <span class="number">9.0f</span> / <span class="number">80.0f</span> * y * y * z * z * z;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">float</span> <span class="title">h</span><span class="params">(<span class="keyword">float</span> x, <span class="keyword">float</span> z)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">float</span> y = <span class="number">1.0f</span>; y &gt;= <span class="number">0.0f</span>; y -= <span class="number">0.001f</span>)</span><br><span class="line">        <span class="keyword">if</span> (f(x, y, z) &lt;= <span class="number">0.0f</span>)</span><br><span class="line">            <span class="keyword">return</span> y;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0.0f</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    HANDLE o = GetStdHandle(STD_OUTPUT_HANDLE);</span><br><span class="line">    _TCHAR buffer[<span class="number">25</span>][<span class="number">80</span>] = &#123; _T(<span class="string">' '</span>) &#125;;</span><br><span class="line">    _TCHAR ramp[] = _T(<span class="string">".:-=+*#%@"</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">float</span> t = <span class="number">0.0f</span>;; t += <span class="number">0.1f</span>) &#123;</span><br><span class="line">        <span class="keyword">int</span> sy = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">float</span> s = sinf(t);</span><br><span class="line">        <span class="keyword">float</span> a = s * s * s * s * <span class="number">0.2f</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">float</span> z = <span class="number">1.3f</span>; z &gt; <span class="number">-1.2f</span>; z -= <span class="number">0.1f</span>) &#123;</span><br><span class="line">            _TCHAR* p = &amp;buffer[sy++][<span class="number">0</span>];</span><br><span class="line">            <span class="keyword">float</span> tz = z * (<span class="number">1.2f</span> - a);</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">float</span> x = <span class="number">-1.5f</span>; x &lt; <span class="number">1.5f</span>; x += <span class="number">0.05f</span>) &#123;</span><br><span class="line">                <span class="keyword">float</span> tx = x * (<span class="number">1.2f</span> + a);</span><br><span class="line">                <span class="keyword">float</span> v = f(tx, <span class="number">0.0f</span>, tz);</span><br><span class="line">                <span class="keyword">if</span> (v &lt;= <span class="number">0.0f</span>) &#123;</span><br><span class="line">                    <span class="keyword">float</span> y0 = h(tx, tz);</span><br><span class="line">                    <span class="keyword">float</span> ny = <span class="number">0.01f</span>;</span><br><span class="line">                    <span class="keyword">float</span> nx = h(tx + ny, tz) - y0;</span><br><span class="line">                    <span class="keyword">float</span> nz = h(tx, tz + ny) - y0;</span><br><span class="line">                    <span class="keyword">float</span> nd = <span class="number">1.0f</span> / sqrtf(nx * nx + ny * ny + nz * nz);</span><br><span class="line">                    <span class="keyword">float</span> d = (nx + ny - nz) * nd * <span class="number">0.5f</span> + <span class="number">0.5f</span>;</span><br><span class="line">                    *p++ = ramp[(<span class="keyword">int</span>)(d * <span class="number">5.0f</span>)];</span><br><span class="line">                &#125;</span><br><span class="line">                <span class="keyword">else</span></span><br><span class="line">                    *p++ = <span class="string">' '</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (sy = <span class="number">0</span>; sy &lt; <span class="number">25</span>; sy++) &#123;</span><br><span class="line">            COORD coord = &#123; <span class="number">0</span>, sy &#125;;</span><br><span class="line">            SetConsoleCursorPosition(o, coord);</span><br><span class="line">            WriteConsole(o, buffer[sy], <span class="number">79</span>, <span class="literal">NULL</span>, <span class="number">0</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        Sleep(<span class="number">33</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p></p><p><a href="/heart/heart.zip">exe文件下载</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;七夕又快到了，分享一个曾经玩过的代码，用C语言画一个跳动的心，很有逼格有木有。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://i.loli.net/2018/08/29/5b8680e407e09.gif&quot; alt=&quot;大一的图&quot;&gt;&lt;br&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="生活随笔" scheme="https://lruihao.cn/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="生活随笔" scheme="https://lruihao.cn/tags/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   

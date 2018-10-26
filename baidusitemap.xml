@@ -4,6 +4,70 @@
 
     
   <url>
+    <loc>https://lruihao.cn/web-server-win.html</loc>
+    <lastmod>2018-10-26T14:50:59.927Z</lastmod>
+    <data>
+        <display>
+        <title>windows上搭建web服务器</title>
+        <pubTime>2018-10-26T13:56:18.000Z</pubTime>
+        
+        <tag>web server</tag>
+         
+        <tag>windows</tag>
+         
+         
+           
+             
+              <breadCrumb title="server" url="https://lruihao.cn/categories/server/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lruihao.cn/gituse.html</loc>
+    <lastmod>2018-10-26T13:40:11.548Z</lastmod>
+    <data>
+        <display>
+        <title>使用Git上传代码到github,coding等仓库</title>
+        <pubTime>2018-10-26T13:11:02.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="https://lruihao.cn/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lruihao.cn/linux-hello-c.html</loc>
+    <lastmod>2018-10-26T13:16:32.742Z</lastmod>
+    <data>
+        <display>
+        <title>linux编程初体验</title>
+        <pubTime>2018-10-15T13:19:27.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>HelloWorld</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="https://lruihao.cn/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lruihao.cn/donators.html</loc>
     <lastmod>2018-10-26T03:04:50.221Z</lastmod>
     <data>
@@ -806,28 +870,6 @@
            
              
               <breadCrumb title="termux" url="https://lruihao.cn/categories/termux/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lruihao.cn/linux-hello-c.html</loc>
-    <lastmod>2018-10-22T10:44:31.010Z</lastmod>
-    <data>
-        <display>
-        <title>linux编程初体验</title>
-        <pubTime>2018-10-15T13:19:27.000Z</pubTime>
-        
-        <tag>HelloWorld</tag>
-         
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="Linux" url="https://lruihao.cn/categories/Linux/"/>
           
         </display>
     </data>

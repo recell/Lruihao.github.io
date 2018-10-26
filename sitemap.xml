@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lruihao.cn/web-server-win.html</loc>
+    
+    <lastmod>2018-10-26T14:50:59.927Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lruihao.cn/gituse.html</loc>
+    
+    <lastmod>2018-10-26T13:40:11.548Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lruihao.cn/linux-hello-c.html</loc>
+    
+    <lastmod>2018-10-26T13:16:32.742Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lruihao.cn/donators.html</loc>
     
     <lastmod>2018-10-26T03:04:50.221Z</lastmod>
@@ -236,13 +257,6 @@
     <loc>https://lruihao.cn/termux.html</loc>
     
     <lastmod>2018-10-24T13:13:41.895Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lruihao.cn/linux-hello-c.html</loc>
-    
-    <lastmod>2018-10-22T10:44:31.010Z</lastmod>
     
   </url>
   
