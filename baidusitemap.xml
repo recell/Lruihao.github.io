@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>https://lruihao.cn/donators.html</loc>
+    <lastmod>2018-10-26T03:04:50.221Z</lastmod>
+    <data>
+        <display>
+        <title>赞助记录</title>
+        <pubTime>2018-09-28T10:34:53.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lruihao.cn/friends.html</loc>
     <lastmod>2018-10-25T16:08:02.299Z</lastmod>
     <data>
@@ -822,21 +837,6 @@
     
     
   <url>
-    <loc>https://lruihao.cn/donators.html</loc>
-    <lastmod>2018-10-20T16:43:06.925Z</lastmod>
-    <data>
-        <display>
-        <title>赞助记录</title>
-        <pubTime>2018-09-28T10:34:53.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://lruihao.cn/font-mmt.html</loc>
     <lastmod>2018-10-18T20:12:59.658Z</lastmod>
     <data>
@@ -1180,9 +1180,9 @@
          
         <tag>数学</tag>
          
-        <tag>Nowcoder</tag>
-         
         <tag>组合数学</tag>
+         
+        <tag>Nowcoder</tag>
          
          
            
@@ -1897,9 +1897,9 @@
         <title>TaoTao要吃鸡</title>
         <pubTime>2018-07-22T02:55:21.000Z</pubTime>
         
-        <tag>背包问题</tag>
-         
         <tag>Nowcoder</tag>
+         
+        <tag>背包问题</tag>
          
          
            
@@ -1924,9 +1924,9 @@
         
         <tag>ACM</tag>
          
-        <tag>Nowcoder</tag>
-         
         <tag>组合数学</tag>
+         
+        <tag>Nowcoder</tag>
          
          
            
