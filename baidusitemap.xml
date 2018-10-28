@@ -3,9 +3,10 @@
 
 
     
+    
   <url>
     <loc>https://lruihao.cn/href-301.html</loc>
-    <lastmod>2018-10-28T06:47:59.492Z</lastmod>
+    <lastmod>2018-10-28T07:00:45.838Z</lastmod>
     <data>
         <display>
         <title>使用js准确获取当前页面url网址信息及301重定向实战</title>
@@ -643,7 +644,6 @@
 
     
     
-    
   <url>
     <loc>https://lruihao.cn/web-server-win.html</loc>
     <lastmod>2018-10-26T15:07:38.937Z</lastmod>
@@ -694,9 +694,9 @@
         <title>linux编程初体验</title>
         <pubTime>2018-10-15T13:19:27.000Z</pubTime>
         
-        <tag>linux</tag>
-         
         <tag>HelloWorld</tag>
+         
+        <tag>linux</tag>
          
          
            
