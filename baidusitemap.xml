@@ -4,6 +4,30 @@
 
     
   <url>
+    <loc>https://lruihao.cn/shell.html</loc>
+    <lastmod>2018-10-30T04:20:02.208Z</lastmod>
+    <data>
+        <display>
+        <title>shell脚本初体验</title>
+        <pubTime>2018-10-29T03:57:39.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+        <tag>HelloWorld</tag>
+         
+        <tag>shell</tag>
+         
+         
+           
+             
+              <breadCrumb title="linux" url="https://lruihao.cn/categories/linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lruihao.cn/donators.html</loc>
     <lastmod>2018-10-29T15:35:19.932Z</lastmod>
     <data>
@@ -65,30 +89,6 @@
            
              
               <breadCrumb title="前端" url="https://lruihao.cn/categories/%E5%89%8D%E7%AB%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lruihao.cn/shell.html</loc>
-    <lastmod>2018-10-29T04:09:58.812Z</lastmod>
-    <data>
-        <display>
-        <title>shell脚本初体验</title>
-        <pubTime>2018-10-29T03:57:39.000Z</pubTime>
-        
-        <tag>linux</tag>
-         
-        <tag>HelloWorld</tag>
-         
-        <tag>shell</tag>
-         
-         
-           
-             
-              <breadCrumb title="linux" url="https://lruihao.cn/categories/linux/"/>
           
         </display>
     </data>
