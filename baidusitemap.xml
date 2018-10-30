@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://lruihao.cn//blog.html.html</loc>
+    <lastmod>2018-10-30T05:12:11.340Z</lastmod>
+    <data>
+        <display>
+        <title>hexo+github搭建个人博客及美化</title>
+        <pubTime>2018-06-01T06:34:23.000Z</pubTime>
+        
+        <tag>hexo博客</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo博客" url="https://lruihao.cn/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lruihao.cn/shell.html</loc>
     <lastmod>2018-10-30T04:20:02.208Z</lastmod>
     <data>
@@ -250,26 +270,6 @@
           
              
               <breadCrumb title="数论" url="https://lruihao.cn/categories/%E6%95%B0%E5%AD%A6/%E6%95%B0%E8%AE%BA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lruihao.cn/hexo%20+%20github%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html</loc>
-    <lastmod>2018-10-29T01:30:07.007Z</lastmod>
-    <data>
-        <display>
-        <title>hexo+github搭建个人博客及美化</title>
-        <pubTime>2018-06-01T06:34:23.000Z</pubTime>
-        
-        <tag>hexo博客</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo博客" url="https://lruihao.cn/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
           
         </display>
     </data>

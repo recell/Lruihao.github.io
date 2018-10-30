@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lruihao.cn/blog.html.html</loc>
+    
+    <lastmod>2018-10-30T05:12:11.340Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lruihao.cn/shell.html</loc>
     
     <lastmod>2018-10-30T04:20:02.208Z</lastmod>
@@ -68,13 +75,6 @@
     <loc>https://lruihao.cn/Euclid.html</loc>
     
     <lastmod>2018-10-29T01:31:23.372Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lruihao.cn/hexo%20+%20github%20%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.html</loc>
-    
-    <lastmod>2018-10-29T01:30:07.007Z</lastmod>
     
   </url>
   
