@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lruihao.cn/hexo-wordcount.html</loc>
+    
+    <lastmod>2018-11-01T09:35:54.076Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lruihao.cn/git-delete.html</loc>
     
     <lastmod>2018-10-30T11:05:58.647Z</lastmod>
@@ -411,13 +418,6 @@
     <loc>https://lruihao.cn/dongtaisub.html</loc>
     
     <lastmod>2018-09-01T03:01:26.074Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lruihao.cn/hexo-wordcount.html</loc>
-    
-    <lastmod>2018-09-01T03:01:04.227Z</lastmod>
     
   </url>
   

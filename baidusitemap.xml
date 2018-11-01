@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>https://lruihao.cn/hexo-wordcount.html</loc>
+    <lastmod>2018-11-01T09:35:54.076Z</lastmod>
+    <data>
+        <display>
+        <title>hexo next主题添加字数统计（2018）</title>
+        <pubTime>2018-08-30T05:15:50.000Z</pubTime>
+        
+        <tag>hexo博客</tag>
+         
+        <tag>网页字数统计</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo博客" url="https://lruihao.cn/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lruihao.cn/git-delete.html</loc>
     <lastmod>2018-10-30T11:05:58.647Z</lastmod>
     <data>
@@ -1320,28 +1342,6 @@
         <tag>hexo博客</tag>
          
         <tag>前端</tag>
-         
-         
-           
-             
-              <breadCrumb title="hexo博客" url="https://lruihao.cn/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lruihao.cn/hexo-wordcount.html</loc>
-    <lastmod>2018-09-01T03:01:04.227Z</lastmod>
-    <data>
-        <display>
-        <title>hexo next主题添加字数统计（2018）</title>
-        <pubTime>2018-08-30T05:15:50.000Z</pubTime>
-        
-        <tag>hexo博客</tag>
-         
-        <tag>网页字数统计</tag>
          
          
            
