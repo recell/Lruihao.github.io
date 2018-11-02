@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lruihao.cn/love/index.html</loc>
+    
+    <lastmod>2018-11-02T08:50:39.180Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lruihao.cn/hexo-wordcount.html</loc>
     
     <lastmod>2018-11-01T09:35:54.076Z</lastmod>
@@ -96,13 +103,6 @@
     <loc>https://lruihao.cn/web-server-yun.html</loc>
     
     <lastmod>2018-10-29T01:29:28.452Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lruihao.cn/love/index.html</loc>
-    
-    <lastmod>2018-10-28T10:03:13.023Z</lastmod>
     
   </url>
   
