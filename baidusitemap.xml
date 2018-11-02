@@ -5,6 +5,65 @@
     
     
   <url>
+    <loc>https://lruihao.cn/beian.html</loc>
+    <lastmod>2018-11-02T15:17:31.557Z</lastmod>
+    <data>
+        <display>
+        <title>网站备案之旅</title>
+        <pubTime>2018-10-29T15:16:26.000Z</pubTime>
+        
+        <tag>生活随笔</tag>
+         
+        <tag>网站备案</tag>
+         
+         
+           
+             
+              <breadCrumb title="生活随笔" url="https://lruihao.cn/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lruihao.cn/git-delete.html</loc>
+    <lastmod>2018-11-02T15:16:56.083Z</lastmod>
+    <data>
+        <display>
+        <title>git删除文件方法及常用指令</title>
+        <pubTime>2018-10-30T10:59:56.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://lruihao.cn/links.html</loc>
+    <lastmod>2018-11-02T09:07:12.947Z</lastmod>
+    <data>
+        <display>
+        <title>各种Links汇总</title>
+        <pubTime>2018-06-06T16:06:05.000Z</pubTime>
+        
+        <tag>通用</tag>
+         
+        <tag>链接集合</tag>
+         
+         
+           
+             
+              <breadCrumb title="通用" url="https://lruihao.cn/categories/%E9%80%9A%E7%94%A8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://lruihao.cn/hexo-wordcount.html</loc>
     <lastmod>2018-11-01T09:35:54.076Z</lastmod>
     <data>
@@ -21,21 +80,6 @@
              
               <breadCrumb title="hexo博客" url="https://lruihao.cn/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lruihao.cn/git-delete.html</loc>
-    <lastmod>2018-10-30T11:05:58.647Z</lastmod>
-    <data>
-        <display>
-        <title>git删除文件方法及常用指令</title>
-        <pubTime>2018-10-30T10:59:56.000Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>
@@ -69,9 +113,9 @@
         <title>shell脚本初体验</title>
         <pubTime>2018-10-29T03:57:39.000Z</pubTime>
         
-        <tag>linux</tag>
-         
         <tag>HelloWorld</tag>
+         
+        <tag>linux</tag>
          
         <tag>shell</tag>
          
@@ -101,28 +145,6 @@
            
              
               <breadCrumb title="通用" url="https://lruihao.cn/categories/%E9%80%9A%E7%94%A8/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://lruihao.cn/beian.html</loc>
-    <lastmod>2018-10-29T15:31:17.952Z</lastmod>
-    <data>
-        <display>
-        <title>网站备案之旅</title>
-        <pubTime>2018-10-29T15:16:26.000Z</pubTime>
-        
-        <tag>生活随笔</tag>
-         
-        <tag>网站备案</tag>
-         
-         
-           
-             
-              <breadCrumb title="生活随笔" url="https://lruihao.cn/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/"/>
           
         </display>
     </data>
@@ -831,28 +853,6 @@
     </url>
 
     
-  <url>
-    <loc>https://lruihao.cn/links.html</loc>
-    <lastmod>2018-10-27T15:59:34.533Z</lastmod>
-    <data>
-        <display>
-        <title>各种Links汇总</title>
-        <pubTime>2018-06-06T16:06:05.000Z</pubTime>
-        
-        <tag>通用</tag>
-         
-        <tag>链接集合</tag>
-         
-         
-           
-             
-              <breadCrumb title="通用" url="https://lruihao.cn/categories/%E9%80%9A%E7%94%A8/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>https://lruihao.cn/gituse.html</loc>
@@ -882,9 +882,9 @@
         <title>linux编程初体验</title>
         <pubTime>2018-10-15T13:19:27.000Z</pubTime>
         
-        <tag>linux</tag>
-         
         <tag>HelloWorld</tag>
+         
+        <tag>linux</tag>
          
          
            
