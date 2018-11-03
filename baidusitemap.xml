@@ -3,6 +3,30 @@
 
 
     
+  <url>
+    <loc>https://lruihao.cn/blog-backup.html</loc>
+    <lastmod>2018-11-03T05:19:51.407Z</lastmod>
+    <data>
+        <display>
+        <title>hexo 博客源码备份</title>
+        <pubTime>2018-11-03T04:49:28.000Z</pubTime>
+        
+        <tag>hexo博客</tag>
+         
+        <tag>源码备份</tag>
+         
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo博客" url="https://lruihao.cn/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>https://lruihao.cn/beian.html</loc>
@@ -1503,9 +1527,9 @@
         <title>git index.lock</title>
         <pubTime>2018-08-14T11:21:23.000Z</pubTime>
         
-        <tag>前端</tag>
-         
         <tag>git</tag>
+         
+        <tag>前端</tag>
          
          
            
